@@ -6,7 +6,7 @@ export default function Header() {
             <h1>Amanda Ma</h1>
             <img src={headshot} className="headshot" alt="logo" />
             <h3>
-            UC Berkeley, BA Data Science (Applied Math & Modeling) '21
+            UC Berkeley, BA Data Science '21
             </h3>
             <h4>
             Former Data Engineer @ Meta, 2022-23
@@ -15,7 +15,7 @@ export default function Header() {
                 Email: amanda_ma98@berkeley.edu
             </h5>
             <a href="https://www.linkedin.com/in/mandiema/" target="_blank">LinkedIn </a>
-            <a href="" target="_blank">Resume </a>
+            <a href="https://drive.google.com/file/d/1iXgByv0DVqTEMb96nAEs0XgvF4reslfm/view?usp=sharing" target="_blank">Resume </a>
             <a href="https://github.com/mandiema" target="_blank">Github</a>
             <p>
                 Hello! My name is Amanda, and I was born & raised in San Francisco. <br/>
