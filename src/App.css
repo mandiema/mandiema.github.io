@@ -24,6 +24,12 @@
   color: rgb(255, 255, 255);
 }
 
+.Project {
+  background-color: rgb(100, 110, 120);
+  height: 35vh;
+  display: flex;
+}
+
 .App-link {
   color: #61dafb;
 }
