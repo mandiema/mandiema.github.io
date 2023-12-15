@@ -16,6 +16,7 @@ function App() {
 
       {/* project background */}
       <section className='Project'>
+        <h1>Projects</h1>
         <ProjectGrid />
       </section>
       

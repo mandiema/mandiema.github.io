@@ -4,7 +4,7 @@ import Project from './Project.js';
 export default function ProjectGrid() {
     return (
         <section class=".ProjectGrid">
-            <h1>Projects</h1>
+            <h3>Machine Learning</h3>
             <Project {...PROJECTS[0]} />
             <Project {...PROJECTS[1]} />
         </section>
