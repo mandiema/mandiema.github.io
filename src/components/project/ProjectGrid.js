@@ -3,7 +3,7 @@ import Project from './Project.js';
 
 export default function ProjectGrid() {
     return (
-        <section>
+        <section class=".ProjectGrid">
             <Project {...PROJECTS[0]} />
             <Project {...PROJECTS[1]} />
         </section>

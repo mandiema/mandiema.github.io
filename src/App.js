@@ -7,13 +7,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* <section className='Project'>
-      <Project {...{image:img, 
-        title:"Latent Dirichlet Allocation", 
-        description:"Fall'19 Data Consulting Deliverable, SAAS"}}/> */}
-      {/* </section> */}
-      {/* <ProjectGrid /> */}
+
+      {/* intro background */}
+      <section className='Intro'>
+        <Header/>
+        {/* // insert dynamic downward pointing arrow here */}
+      </section>
+
+      {/* project background */}
+      <section className='Project'>
+        <ProjectGrid />
+      </section>
+      
+      <section className='Footer'>
+      © Amanda Ma, 2023
+      </section>
     </div>
   );
 }
