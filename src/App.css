@@ -2,43 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 15vmin;
-  pointer-events: none;
+.headshot {
+  height: 20vmin;
+  border-radius:50%;
+  /* -webkit-box-reflect: below 20px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #372a3c;
-  min-height: 50vh;
+.profile-header {
+  background-color: #faf8f6;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(255, 255, 255);
+  font-size: calc(10px + 1vmin);
+  color: rgb(16, 14, 14);
+  font-family:'Trebuchet MS'
 }
 
-.Project {
+/* .Project {
   background-color: rgb(100, 110, 120);
   height: 35vh;
   display: flex;
-}
 
-.App-link {
+} */
+
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(-10deg);
   }
   to {
     transform: rotate(10deg);
   }
-}
+} */
