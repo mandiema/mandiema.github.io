@@ -31,26 +31,68 @@
     border-radius:30%;
 }
   
-  #specialty {
-    font-size: 2.3vh;
-  }
+#specialty {
+    font-size: 2.5vh;
+}
+
+#job-title {
+    font-size: 2.2vh;
+}
   
-  #school {
-    margin-bottom: 5%;
+#school {
+    font-size: 1.8vh;
+}
+
+#email {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+#links {
+    padding: 1vh 3vh;
+    margin: 4vh;
+}
+
+#links a {
+    margin: 1vh;
+    padding: 1vh 2vh;
+    background-color: rgb(236, 237, 240);
+    border-radius: 50%;
+    color: rgb(50, 49, 49);
+    font-size: 1.8vh;
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#email {
+    margin: 1vh;
+}
+
+#note {
+    color:red;
   }
 
-  @media (prefers-reduced-motion: no-preference) {
+#scroll-arrow {
+    margin: 5vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
     #scroll-arrow {
-      animation: App-logo-point infinite 1s alternate;
+        animation: App-logo-point infinite 1s alternate;
     }
-  }
-  
-  @keyframes App-logo-point {
+}
+
+@keyframes App-logo-point {
     from {
-      transform: translateY(0);
+        transform: translateY(0);
     }
     to {
-      transform: translateY(15px);
+        transform: translateY(15px);
     }
-  }
+}
 
