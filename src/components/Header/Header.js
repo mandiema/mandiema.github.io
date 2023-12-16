@@ -22,7 +22,7 @@ export default function Header() {
             <h6>
                 <img src={email} width="4%"/> amanda_ma98@berkeley.edu 
             </h6>
-            <p>
+            <p id="note">
                 <b>I am currently working on developing this site and adding
                 my projects - check back later! :)</b>
             </p>

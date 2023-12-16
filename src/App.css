@@ -94,7 +94,9 @@ a {
   color: #61dafb;
 } */
 
-
+#note {
+  color:red;
+}
 
 .Footer {
   background-color: rgb(41, 47, 60);
