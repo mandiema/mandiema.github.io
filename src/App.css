@@ -1,20 +1,27 @@
 .App {
   text-align: center;
-  font-family:'Trebuchet MS';
   color: rgb(16, 14, 14);
 }
 
 .headshot {
   height: 15vmin;
   border-radius:30%;
-  /* -webkit-box-reflect: below 20px; */
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-reduced-motion: no-preference) {
+  #scroll-arrow {
+    animation: App-logo-point infinite 1s alternate;
   }
-} */
+}
+
+@keyframes App-logo-point {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
 
 .Intro {
   height: 100vh;
@@ -28,15 +35,24 @@
 }
 
 .profile-header {
-  width: 70vh;
-  height: 60vh;
+  width: 80vh;
+  height: 70vh;
   font-size: calc(10px + 1vmin);
   background-color: rgb(247, 250, 255);
   padding: 3% 7% 3% 7%;
   border-radius: 5%;
   border-style: double; 
   border-width: 1vh;
-  border-color: rgb(239, 190, 65);
+  border-color: rgb(143, 109, 22);
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#specialty {
+  font-size: 2.3vh;
+}
+
+#school {
+  margin-bottom: 5%;
 }
 
 h1 {
@@ -45,8 +61,20 @@ h1 {
   margin: 0
 }
 
+h6 {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
 a {
-  padding: 3%;
+  padding: 1vh 2vh;
+  margin: 1%;
+  background-color: rgb(236, 237, 240);
+  border-radius: 50%;
+  color: rgb(50, 49, 49);
+  font-size: 80%;
 }
 
 .ProjectGrid {
@@ -66,14 +94,7 @@ a {
   color: #61dafb;
 } */
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(-10deg);
-  }
-  to {
-    transform: rotate(10deg);
-  }
-} */
+
 
 .Footer {
   background-color: rgb(41, 47, 60);
