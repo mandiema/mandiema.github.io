@@ -1,0 +1,56 @@
+#intro-background {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/tile.gif');
+    background-size:1%;
+}  
+
+#intro-box {
+    width: 80vh;
+    height: 70vh;
+    background-color: rgb(247, 250, 255);
+    padding: 3% 7% 3% 7%;
+    border-radius: 5%;
+    border-style: double; 
+    border-width: 1vh;
+    border-color: rgb(143, 109, 22);
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#name {
+    font-size: 5vh;
+    font-family:fantasy;
+    margin: 0
+}
+
+#headshot {
+    height: 15vmin;
+    border-radius:30%;
+}
+  
+  #specialty {
+    font-size: 2.3vh;
+  }
+  
+  #school {
+    margin-bottom: 5%;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    #scroll-arrow {
+      animation: App-logo-point infinite 1s alternate;
+    }
+  }
+  
+  @keyframes App-logo-point {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(15px);
+    }
+  }
+

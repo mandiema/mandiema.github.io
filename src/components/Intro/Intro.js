@@ -1,12 +1,14 @@
-import headshot from './headshot.jpg';
-import email from './email.png';
-import arrow from './arrow.png';
+import headshot from './img/headshot.jpg';
+import email from './img/email.png';
+import arrow from './img/arrow.png';
 
-export default function Header() {
+import './Intro.css';
+
+export default function Intro() {
     return (
-        <div className="profile-header">
-            <h1>Amanda Ma</h1>
-            <img src={headshot} className="headshot" alt="logo" />
+        <div id="intro-box">
+            <h1 id="name">Amanda Ma</h1>
+            <img src={headshot} id="headshot" alt="logo" />
             <p id="specialty">
             specializes in <b><i>data engineering, machine learning & analytics</i></b>
             </p>

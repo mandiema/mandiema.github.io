@@ -1,4 +1,4 @@
-import Header from './components/Header/Header.js';
+import Intro from './components/Intro/Intro.js';
 import ProjectGrid from './components/project/ProjectGrid.js';
 
 import './App.css';
@@ -8,10 +8,8 @@ function App() {
   return (
     <div className="App">
 
-      {/* intro background */}
-      <section className='Intro'>
-        <Header/>
-        {/* // insert dynamic downward pointing arrow here */}
+      <section id='intro-background'>
+        <Intro/>
       </section>
 
       {/* project background */}

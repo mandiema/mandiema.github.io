@@ -3,64 +3,6 @@
   color: rgb(16, 14, 14);
 }
 
-.headshot {
-  height: 15vmin;
-  border-radius:30%;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  #scroll-arrow {
-    animation: App-logo-point infinite 1s alternate;
-  }
-}
-
-@keyframes App-logo-point {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(15px);
-  }
-}
-
-.Intro {
-  height: 100vh;
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
-  background-image: url('tile.gif');
-  background-size:1%;
-  
-}
-
-.profile-header {
-  width: 80vh;
-  height: 70vh;
-  font-size: calc(10px + 1vmin);
-  background-color: rgb(247, 250, 255);
-  padding: 3% 7% 3% 7%;
-  border-radius: 5%;
-  border-style: double; 
-  border-width: 1vh;
-  border-color: rgb(143, 109, 22);
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#specialty {
-  font-size: 2.3vh;
-}
-
-#school {
-  margin-bottom: 5%;
-}
-
-h1 {
-  font-size: 50px;
-  font-family:fantasy;
-  margin: 0
-}
-
 h6 {
   display: flex;
   flex-direction:row;
