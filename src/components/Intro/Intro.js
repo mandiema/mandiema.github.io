@@ -20,7 +20,7 @@ export default function Intro() {
             </p>
             <div id="links">
                 <a href="https://www.linkedin.com/in/mandiema/" target="_blank">LinkedIn</a>
-                <a href="https://drive.google.com/file/d/1iXgByv0DVqTEMb96nAEs0XgvF4reslfm/view?usp=sharing" target="_blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1gtgCCvZ4kcMqpC9WkhPSJfCdjpXFeyHu/view?usp=sharing" target="_blank">Resume</a>
                 <a href="https://github.com/mandiema" target="_blank">Github</a>
             </div>
             <div id="email">
