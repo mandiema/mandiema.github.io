@@ -1,0 +1,6 @@
+#grid {
+    margin-top: 20px 0px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, calc(20% - 10px));
+}

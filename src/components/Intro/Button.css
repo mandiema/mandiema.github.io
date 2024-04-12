@@ -1,0 +1,17 @@
+#button {
+    padding: 1vh 3vh;
+    margin: 1vh;
+}
+
+a {
+    padding: 1vh 2vh;
+    background-color: rgb(236, 237, 240);
+    border-radius: 50%;
+    color: rgb(50, 49, 49);
+    font-size: 1.8vh;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

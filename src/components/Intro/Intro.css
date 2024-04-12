@@ -17,52 +17,49 @@
     border-style: double; 
     border-width: 1vh;
     border-color: rgb(143, 109, 22);
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif, 'Arial Narrow Bold', sans-serif;
 }
 
 #name {
-    font-size: 5vh;
+    font-size: 6vh;
     font-family:fantasy;
     margin: 0
 }
 
 #headshot {
-    height: 15vmin;
+    height: 20vmin;
     border-radius:30%;
 }
   
 #specialty {
     font-size: 2.5vh;
 }
-
-#job-title {
-    font-size: 2.2vh;
-}
   
-#school {
+#experience {
+    margin: 10px 100px;
     font-size: 1.8vh;
+    border-style:dotted;
+    border-radius: 50%;
+    border-color: gray;
 }
+
+/* #berkeley {
+    background-color: rgb(249, 243, 205);
+    padding: 10px 0px;
+    margin: 0px 190px 10px 180px;
+}
+
+#work {
+    background-color: rgb(205, 230, 249);
+    padding: 10px 0px;
+    margin: 0px 190px 0px 190px;
+} */
 
 #email {
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: center;
-}
-
-#links {
-    padding: 1vh 3vh;
-    margin: 4vh;
-}
-
-#links a {
-    margin: 1vh;
-    padding: 1vh 2vh;
-    background-color: rgb(236, 237, 240);
-    border-radius: 50%;
-    color: rgb(50, 49, 49);
-    font-size: 1.8vh;
-    text-decoration: none;
 }
 
 #links a:hover {
@@ -74,7 +71,7 @@
 }
 
 #scroll-arrow {
-    margin: 5vh;
+    margin: 3vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
