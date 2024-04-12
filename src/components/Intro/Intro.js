@@ -14,16 +14,17 @@ export default function Intro() {
                 analytics engineer • data scientist <br></br>
             </p>
             <div id="experience">
-            <p id="berkeley">
-            <b>UC Berkeley BA, Data Science</b>
-            </p>
-            <p id="work">
-            <b>Meta Inc., Data Engineer</b>
+            <p>
+            Hello! 👩🏻‍💻 <br></br>
+            A little bit about myself... 
+            I am Chinese-American, born and raised in San Francisco. 
+            My background includes studying data science at UC Berkeley and working as a data engineer at Meta. <br></br>
+            Outside of work, I enjoy dancing and indulging in matcha lattes.
             </p>
             </div>
             <ButtonGrid/>
             <div id="email">
-                <img src={email} width="4%"/>
+                <img src={email} width="3%"/>
                 amanda_ma98@berkeley.edu 
             </div>
             <div id="scroll-arrow">

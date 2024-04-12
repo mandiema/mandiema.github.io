@@ -33,27 +33,14 @@
   
 #specialty {
     font-size: 2.5vh;
+    font-family: Avantgarde;
 }
   
 #experience {
     margin: 10px 100px;
     font-size: 1.8vh;
-    border-style:dotted;
-    border-radius: 50%;
-    border-color: gray;
+    font-family: Optima;
 }
-
-/* #berkeley {
-    background-color: rgb(249, 243, 205);
-    padding: 10px 0px;
-    margin: 0px 190px 10px 180px;
-}
-
-#work {
-    background-color: rgb(205, 230, 249);
-    padding: 10px 0px;
-    margin: 0px 190px 0px 190px;
-} */
 
 #email {
     display: flex;
@@ -67,7 +54,7 @@
 }
 
 #email {
-    margin: 1vh;
+    margin: 2vh;
 }
 
 #scroll-arrow {
