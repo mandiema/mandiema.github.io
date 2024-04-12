@@ -19,7 +19,7 @@ function App() {
       </section>
       
       <section className='Footer'>
-      © Amanda Ma, 2023
+      © Amanda Ma, 2024
       </section>
     </div>
   );

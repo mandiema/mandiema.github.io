@@ -12,6 +12,7 @@ a {
     color: rgb(44, 42, 42);
     font-size: 1.8vh;
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 a:hover {
