@@ -11,7 +11,7 @@ export default function Intro() {
             <h1 id="name">Amanda Ma</h1>
             <img src={headshot} id="headshot" alt="logo" />
             <p id="specialty">
-                analytics engineer • data scientist <br></br>
+                analytics engineer • data enthusiast <br></br>
             </p>
             <div id="experience">
             <p>
